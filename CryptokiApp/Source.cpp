@@ -75,7 +75,7 @@ int main()
 		
 		cout << "Informatii despre token...\n";
 		cout << "\n\n";
-
+		printf("");
 		cout <<tokenInfo.firmwareVersion.major << "." << tokenInfo.firmwareVersion.minor << endl;
 		cout << tokenInfo.flags << endl;
 		cout << tokenInfo.hardwareVersion.major << "." << tokenInfo.hardwareVersion.minor << endl;
